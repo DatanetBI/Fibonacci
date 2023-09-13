@@ -14,7 +14,7 @@ Si el índice requerido es 1 o mayor el sistema entra al ciclo,
 	Al entrar al ciclo x1 contiene el valor del fibonacci anterior
 	Al entrar al ciclo x2 contiene el valor del fibonacci actual
 
-	En una variable almacenamos el valor del fibonacci anterior (x1)
+	En una variable temp almacenamos el valor del fibonacci anterior (x1)
 	
 	En x1 almacemanos el valor del fibonnaci actual(x2)
 
