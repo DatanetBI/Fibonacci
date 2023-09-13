@@ -10,26 +10,26 @@ namespace Fibonacci.Api.Controllers
         [HttpGet(Name = "GetFibonacciIndex")]
         public int GetFibonacciValueByIndex(int index)
         {
-            int v1 = 0;
-            int v2 = 1;
+            int x1 = 0;
+            int x2 = 1;
 
 
-            //En este caso generamos 30 sucesiones del código Fibonacci.
+            //generamos las "n" sucesiones del código Fibonacci
             for (int i = 0; i < index; i++)
             {
-                //Almacenamos el valor v1 en una variable temporal para no perderlo.
-                int temp = v1;
+                //almacenamos el primer valor en una variable temporal
+                int temp = x1;
 
-                //El valor 1 se convierte en el valor 2.
-                v1 = v2;
+                //El primer valor se convierte en el segundo valor.
+                x1 = x2;
 
                 //Sumamos los valores.
-                v2 = temp + v1;
+                x2 = temp + x1;
 
                
             }
 
-            return v1;
+            return x1;
         }
     }
 }
